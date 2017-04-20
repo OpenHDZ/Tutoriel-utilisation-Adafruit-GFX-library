@@ -18,7 +18,6 @@ Adafruit_ILI9341 tft = Adafruit_ILI9341(TFT_CS, TFT_DC);
 void setup() {
   
 /* Initialise l'écran LCD */
-  Serial.begin(9600);
   tft.begin();
   tft.setRotation(1);
   tft.fillScreen(ILI9341_BLACK);
